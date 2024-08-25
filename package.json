@@ -1,0 +1,29 @@
+{
+  "name": "tradingbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:app": "ts-node app.ts",
+    "dev:commandInt": "ts-node commandInt.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.1.0",
+    "@types/ws": "^8.5.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "ccxt": "^4.3.73",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.2",
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.18.0",
+    "wscat": "^5.2.1"
+  }
+}
